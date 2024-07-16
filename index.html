@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Contêiner principal do aplicativo -->
+<div class="app-container">
+    <!-- Título do aplicativo -->
+    <h1>Notefy 🗒️</h1>
+    
+    <!-- Seção de entrada de notas -->
+    <div class="note-input">
+        <!-- Campo de entrada para o título da nota -->
+        <input type="text" id="note-title" placeholder="Título da Nota">
+        
+        <!-- Área de texto para o conteúdo da nota -->
+        <textarea id="note-content" placeholder="Conteúdo da Nota"></textarea>
+        
+        <!-- Campo de entrada para tags da nota, separadas por vírgula -->
+        <input type="text" id="note-tags" placeholder="Tags (separadas por vírgula)">
+        
+        <!-- Botão para adicionar a nota -->
+        <button id="add-note">Adicionar Nota</button>
+    </div>
+    
+    <!-- Lista onde as notas adicionadas serão exibidas -->
+    <div class="notes-list" id="notes-list"></div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

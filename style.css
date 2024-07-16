@@ -1,0 +1,101 @@
+/* Define a fonte padrão e a cor de fundo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estiliza o contêiner principal do aplicativo */
+  .app-container {
+    width: 80%; /* Largura do contêiner como 80% da largura da página */
+    max-width: 800px; /* Largura máxima do contêiner */
+    margin: 20px auto; /* Margem superior de 20px e centraliza horizontalmente */
+    background: #fff; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno de 20px */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do contêiner */
+  }
+  
+  /* Estiliza o título principal */
+  h1 {
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Define a cor do texto */
+  }
+  
+  /* Estiliza a seção de entrada de notas */
+  .note-input {
+    margin-bottom: 20px; /* Margem inferior de 20px */
+  }
+  
+  /* Estiliza os campos de entrada de texto e área de texto */
+  .note-input input,
+  .note-input textarea {
+    width: 98%; /* Define a largura como 98% do contêiner */
+    padding: 10px; /* Espaçamento interno de 10px */
+    margin: 5px 0; /* Margem superior e inferior de 5px */
+    border: 1px solid #ccc; /* Borda sólida de 1px com cor cinza claro */
+    border-radius: 4px; /* Bordas arredondadas */
+  }
+  
+  /* Estiliza o botão de adicionar nota */
+  .note-input button {
+    width: 100%; /* Define a largura como 100% do contêiner */
+    padding: 10px; /* Espaçamento interno de 10px */
+    background-color: #28a745; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-top: 10px; /* Margem superior de 10px */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  }
+  
+  /* Estiliza o botão ao passar o mouse por cima */
+  .note-input button:hover {
+    background-color: #218838; /* Muda a cor de fundo ao passar o mouse */
+  }
+  
+  /* Estiliza a lista de notas */
+  .notes-list {
+    margin-top: 20px; /* Margem superior de 20px */
+  }
+  
+  /* Estiliza cada item de nota */
+  .note-item {
+    background: #f9f9f9; /* Cor de fundo cinza claro */
+    border: 1px solid #ccc; /* Borda sólida de 1px com cor cinza claro */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno de 10px */
+    margin-bottom: 10px; /* Margem inferior de 10px */
+  }
+  
+  /* Estiliza o título da nota */
+  .note-item h3 {
+    margin: 0; /* Remove a margem */
+  }
+  
+  /* Estiliza o parágrafo de texto da nota */
+  .note-item p {
+    margin: 5px 0; /* Margem superior e inferior de 5px */
+  }
+  
+  /* Estiliza a seção de tags da nota */
+  .note-item .tags {
+    color: #888; /* Define a cor do texto das tags */
+  }
+  
+  /* Estiliza o botão de deletar nota */
+  .note-item button {
+    background: #dc3545; /* Cor de fundo vermelha */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove bordas */
+    padding: 5px 10px; /* Espaçamento interno de 5px nas laterais e 10px verticalmente */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  }
+  
+  /* Estiliza o botão de deletar ao passar o mouse por cima */
+  .note-item button:hover {
+    background: #c82333; /* Muda a cor de fundo ao passar o mouse */
+  }
+  
